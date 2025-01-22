@@ -1,0 +1,74 @@
+:root {
+    --font-size: 1px;
+    --color: hsl(228, 45%, 44%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+    --Font-sizeP: 16px;
+}
+
+body {
+    background-color: var(--Light-Pink);
+    font-family: "Epilogue", serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+
+.logoAndIcon {
+    display: flex;
+    gap: 1.2rem;
+}
+.logoAndIcon span {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.main p {
+    font-size: var(--Font-size);
+    font-weight: 400;
+    color: var(--Grayish-purple);
+}
+
+.main {
+    background-color: var(--White);
+    width: 35%;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 400px;
+    position: relative;
+    margin-top: -120px;
+}
+.main h1 {
+    font-size: var(--Font-size);
+    line-height: 40px;
+}
+.askQuestion1 , .askQuestion2 ,.askQuestion3 ,.askQuestion4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main button {
+    border-style: none;
+    background-color: var(--White);
+    cursor: pointer;
+}
+
+
+.ActiveShowQuestion {
+    display: block;
+}
+
+.HideShowQuestion{
+    display: none;
+}
+
+#minus {
+    display: none;
+}
+
+
+
+
